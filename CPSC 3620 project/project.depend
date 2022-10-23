@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543804630 source:a:\school\cpsc 3620\project\new.cpp
+	<stdio.h>
+	<stdlib.h>
+

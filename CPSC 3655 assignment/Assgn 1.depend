@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539148977 source:g:\school\cpsc 3655\assgn 1\q1.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+

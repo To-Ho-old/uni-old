@@ -1,0 +1,26 @@
+//********************************************************************
+// CPSC 2620 Fall 2017
+// Assignment 4
+// Upper Triangular Matrix class definition file
+// Written by Quoc Ho
+// Date: Dec 2, 2017
+//********************************************************************
+#include "Triangular_Matrix.h"
+#include "Triangular_Matrix.cc"
+
+using namespace std;
+
+class Upper_Triangular_Matrix:public Triangular_Matrix
+{
+ public:
+  upper_triangular_matrix(int =0, double = 0.0);
+  const double& operator()(int, int) const;
+  double& operator() (int, int) = 0;
+  void print();
+  double infnorm();
+
+ private:
+  double* arr;
+  int dim;
+  int numSize;
+};
